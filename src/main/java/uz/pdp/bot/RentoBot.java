@@ -29,8 +29,8 @@ import java.util.*;
 @RequiredArgsConstructor
 public class RentoBot extends TelegramLongPollingBot {
 
-    private static final String USER_NAME = "t.me/Rento_helper_bot";
-    private static final String BOT_TOKEN = "8037787062:AAFZdhkYO_07wC1sqygnaHcBJZs6eAFW2bE";
+    private static final String USER_NAME = "your_bot_uname";
+    private static final String BOT_TOKEN = "your_bot_token";
 
     private final UserSessionService userSessionService = new UserSessionService();
 
